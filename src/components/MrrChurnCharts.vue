@@ -53,7 +53,7 @@ const MRRChartData = computed(() => {
     datasets: [
       {
         label: 'Churn Rate',
-        backgroundColor: '#f87979',
+        backgroundColor: '#22c55e',
         data: props.churnRateData?.map((item: DataChurnRateData) => item.churnRate) || []
       }
     ]
@@ -66,7 +66,7 @@ const ChurnRateChartData = computed(() => {
     datasets: [
       {
         label: 'MRR',
-        backgroundColor: '#f87979',
+        backgroundColor: '#22c55e',
         data: props.mrrData?.map((item: DataMRR) => item.mrr) || []
       }
     ]
